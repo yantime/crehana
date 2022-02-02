@@ -1,4 +1,3 @@
-
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,7 +16,7 @@ import { PageLogin } from "./pages/login/login";
 import { PageProducto } from "./pages/producto/producto";
 import { PageRegister } from "./pages/register/register";
 import "./assets/style/main.css";
-import { Card } from "./components/card/card";
+// import { Card } from "./components/card/card";
 /*
 Componente wrapper
 */
@@ -47,7 +46,6 @@ export function App() {
               <PageCarrito />
             </Route>
             <Redirect exact from="/" to="/landing" />
-            
           </Switch>
         </Main>
         <Footer />

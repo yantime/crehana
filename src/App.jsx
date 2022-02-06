@@ -16,6 +16,7 @@ import { PageLogin } from "./pages/login/login";
 import { PageProducto } from "./pages/producto/producto";
 import { PageRegister } from "./pages/register/register";
 import "./assets/style/main.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Card } from "./components/card/card";
 /*
 Componente wrapper
@@ -45,7 +46,7 @@ export function App() {
             <Route path="/carrito">
               <PageCarrito />
             </Route>
-            <Redirect exact from="/" to="/landing" />
+            
           </Switch>
         </Main>
         <Footer />
